@@ -1,4 +1,4 @@
-(ns project-practice.core)
+(ns project-practice.practice)
 
 (defn foo
   "I don't do a whole lot."
