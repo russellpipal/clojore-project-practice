@@ -1,6 +1,4 @@
-(ns project-practice.practice)
+(ns project-practice.practice
+  (:require [camel-snake-kebab.core :as csk]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(csk/->snake_case "going to snake case")
