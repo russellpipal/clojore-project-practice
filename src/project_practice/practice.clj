@@ -4,3 +4,6 @@
 (csk/->snake_case "going to snake case")
 (csk/->camelCase "going to camel case")
 (csk/->kebab-case "going to kebab case")
+
+(defn test-function [x]
+  (csk/->snake_case x))
